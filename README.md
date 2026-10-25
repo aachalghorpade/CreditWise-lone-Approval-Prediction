@@ -70,9 +70,6 @@ Alternatively, install from requirements.txt if you create one.
 6. Open the notebook and run the cells from top to bottom.
 # Results
 The notebook prints precision, recall, F1-score, accuracy, and confusion matrices for each model. It includes a note identifying Gaussian Naive Bayes as the best model based on precision. Add the actual metric values from your notebook output here after running all cells.
-# Important Notes
-- This project is for learning and experimentation. It should not be used as the sole basis for real-world lending decisions.
-- Do not upload private applicant data, credentials, or other sensitive information to a public repository.
-- The notebook performs preprocessing before the train-test split in its current workflow. For a more robust evaluation, fit imputation and encoding steps using training data only, ideally through a Scikit-learn Pipeline or ColumnTransformer, to reduce data leakage.
+
 # Author
 ###  Aachal Ghorpade
